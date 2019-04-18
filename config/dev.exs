@@ -51,7 +51,7 @@ config :tic_tac, TicTacWeb.Endpoint,
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/tic_tac_web/{live,views}/.*(ex)$",
+      ~r"lib/tic_tac_web/(live|views)/.*(ex)$",
       ~r"lib/tic_tac_web/templates/.*(eex)$"
     ]
   ]

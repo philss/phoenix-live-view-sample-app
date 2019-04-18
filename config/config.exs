@@ -12,6 +12,7 @@ config :tic_tac, TicTacWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "qSS4It19xQMhKMUle0VGcmp7FbwcJ862DMhpS9JYNGSZAE+qapxYDd9BhjU42F4X",
   render_errors: [view: TicTacWeb.ErrorView, accepts: ~w(html json)],
+  live_view: [signing_salt: "7yjonCqORVpftYeQy+mBcKbaAICOZI8R"],
   pubsub: [name: TicTac.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
